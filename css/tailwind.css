@@ -3,15 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* border: 1px solid rgb(11, 199, 186);  */
-}
-
-body {
-  display          : flex;
-  flex-direction   : column;
-  min-height       : calc(100vh - var(--header-height));
-  line-height      : var(--body-line-height);
-
 }
 
 h1 {
@@ -20,14 +11,12 @@ h1 {
   border: none;
   border-radius: 5px;
   color: white;
-  background-color: transparent;
   position: relative;
   width: 600px;
   display: inline-block;
   text-shadow: -1px -1px 0px #1df2f0, 1px 1px 0px #E94BE8;
-  background-color: transparent;
-  border: 1px solid rgb(209, 216, 215);
-  box-shadow: 0px 10px 10px -10px rgb(201, 201, 201);
+  border: 1px solid #d1d8d7;
+  box-shadow: 0px 10px 10px -10px #c9c9c9;
 }
 
 h1::after {
@@ -47,8 +36,7 @@ h1::after {
   display: block;
   animation: glitch_4011 1s infinite;
   text-shadow: -3px -3px 0px #6602fb, 3px 3px 0px #E94BE8;
-  background-color: transparent;
-  border: 3px solid rgb(102, 2, 251);
+  border: 3px solid #6602fb;
   animation-timing-function: steps(2, end);
 }
 
@@ -196,6 +184,8 @@ strong {
   opacity: 0.5;
 }
 
+
+
 @keyframes animStar {
   from {
     transform: translateY(0);
@@ -246,3 +236,4 @@ strong {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
+
