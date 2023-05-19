@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  border: 1px solid red; 
+  border: 1px solid rgb(11, 199, 186); 
 }
 
 :root {
